@@ -1,6 +1,6 @@
 from clases.ejercicio1 import *
 
-
+from clases.ejercicio3 import *
 
 print("Ejercicio 1: ")
 
@@ -13,3 +13,16 @@ bucle=MientrasQue(True, bloque_alternativa)
 
 print("Ejercicio 2: ")
 
+
+
+print("Ejercicio 3: ")
+
+naturaleza=naturaleza()
+
+producto=producto(naturaleza.alimentaria)
+precioneto=factoryfactura.crear(producto).facturar()
+print("El precio neto del producto sera: ", precioneto)
+
+producto=producto(naturaleza.servicio)
+precioneto=factoryfactura.crear(producto).facturar()
+print("El precio neto del producto sera: ", precioneto)
