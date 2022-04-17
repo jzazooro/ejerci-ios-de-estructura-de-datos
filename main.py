@@ -1,5 +1,5 @@
 from clases.ejercicio1 import *
-
+from clases.ejercicio2 import *
 from clases.ejercicio3 import *
 
 print("Ejercicio 1: ")
@@ -13,7 +13,12 @@ bucle=MientrasQue(True, bloque_alternativa)
 
 print("Ejercicio 2: ")
 
-
+lineauno=input("Por favor introduzca una oracion: ")
+lineados=input("Por favor introduzca una oracion: ")
+nombredelarchivo=input("Por favor introduzca el nombre con el que se guardara el archivo: ")
+datosdelusuario=datosdelusuario(lineauno , lineados)
+nuevosdatos=mayusculas(datosdelusuario).datosprocesados
+guardar(nombredelarchivo, nuevosdatos)
 
 print("Ejercicio 3: ")
 
