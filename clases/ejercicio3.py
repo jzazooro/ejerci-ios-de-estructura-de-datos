@@ -16,4 +16,4 @@ class factoryfactura(producto):
 
     def crear(self):
         clase=producto(self.tasaiva)
-        return clase
+        return clase 
